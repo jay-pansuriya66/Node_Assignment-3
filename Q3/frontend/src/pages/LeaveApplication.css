@@ -1,0 +1,57 @@
+.leave-form-container {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.leave-form-container h3 {
+  color: var(--dark-color);
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.leave-form {
+  max-width: 600px;
+}
+
+.section-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table-responsive table {
+  min-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .card-header .btn {
+    width: 100%;
+  }
+
+  .leave-form-container {
+    padding: 15px;
+  }
+
+  .table-responsive {
+    font-size: 14px;
+  }
+
+  .table-responsive table th,
+  .table-responsive table td {
+    padding: 10px;
+  }
+}

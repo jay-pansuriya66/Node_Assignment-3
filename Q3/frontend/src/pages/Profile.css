@@ -1,0 +1,85 @@
+.profile-section {
+  margin-bottom: 35px;
+}
+
+.profile-section h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.profile-item {
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  border-left: 3px solid var(--primary-color);
+}
+
+.profile-item.full-width {
+  grid-column: 1 / -1;
+}
+
+.profile-item label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.profile-item .value {
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.salary-breakdown {
+  background: #e8f4f8;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.salary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #d0e7f0;
+  font-size: 16px;
+}
+
+.salary-row:last-child {
+  border-bottom: none;
+}
+
+.salary-row.total {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 2px solid var(--primary-color);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--success-color);
+}
+
+.salary-row .positive {
+  color: var(--success-color);
+  font-weight: 500;
+}
+
+.salary-row .negative {
+  color: var(--danger-color);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
