@@ -1,0 +1,22 @@
+{
+  "name": "react-cdn-components",
+  "version": "1.0.0",
+  "description": "React components using CDN approach with Node.js server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "cdn",
+    "components",
+    "nodejs",
+    "http-server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
